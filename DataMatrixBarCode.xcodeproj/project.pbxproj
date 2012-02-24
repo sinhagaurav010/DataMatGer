@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9FF531D14F8360A00D35AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF531C14F8360A00D35AB3 /* UIKit.framework */; };
+		C9FF531F14F8360A00D35AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF531E14F8360A00D35AB3 /* Foundation.framework */; };
+		C9FF532114F8360A00D35AB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF532014F8360A00D35AB3 /* CoreGraphics.framework */; };
+		C9FF532714F8360A00D35AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9FF532514F8360A00D35AB3 /* InfoPlist.strings */; };
+		C9FF532914F8360A00D35AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FF532814F8360A00D35AB3 /* main.m */; };
+		C9FF532D14F8360A00D35AB3 /* testdelegateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FF532C14F8360A00D35AB3 /* testdelegateAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9FF531814F8360A00D35AB3 /* DataMatrixBarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataMatrixBarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FF531C14F8360A00D35AB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9FF531E14F8360A00D35AB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9FF532014F8360A00D35AB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9FF532414F8360A00D35AB3 /* DataMatrixBarCode-Info.plist */ = {isa = PBXFileReference; path = "DataMatrixBarCode-Info.plist"; sourceTree = "<group>"; };
+		C9FF532614F8360A00D35AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9FF532814F8360A00D35AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9FF532A14F8360A00D35AB3 /* DataMatrixBarCode-Prefix.pch */ = {isa = PBXFileReference; path = "DataMatrixBarCode-Prefix.pch"; sourceTree = "<group>"; };
+		C9FF532B14F8360A00D35AB3 /* testdelegateAppDelegate.h */ = {isa = PBXFileReference; path = testdelegateAppDelegate.h; sourceTree = "<group>"; };
+		C9FF532C14F8360A00D35AB3 /* testdelegateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testdelegateAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9FF531514F8360A00D35AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FF531D14F8360A00D35AB3 /* UIKit.framework in Frameworks */,
+				C9FF531F14F8360A00D35AB3 /* Foundation.framework in Frameworks */,
+				C9FF532114F8360A00D35AB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9FF530D14F8360A00D35AB3 = {
+			isa = PBXGroup;
+			children = (
+				C9FF532214F8360A00D35AB3 /* DataMatrixBarCode */,
+				C9FF531B14F8360A00D35AB3 /* Frameworks */,
+				C9FF531914F8360A00D35AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9FF531914F8360A00D35AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF531814F8360A00D35AB3 /* DataMatrixBarCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9FF531B14F8360A00D35AB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF531C14F8360A00D35AB3 /* UIKit.framework */,
+				C9FF531E14F8360A00D35AB3 /* Foundation.framework */,
+				C9FF532014F8360A00D35AB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9FF532214F8360A00D35AB3 /* DataMatrixBarCode */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF532B14F8360A00D35AB3 /* testdelegateAppDelegate.h */,
+				C9FF532C14F8360A00D35AB3 /* testdelegateAppDelegate.m */,
+				C9FF532314F8360A00D35AB3 /* Supporting Files */,
+			);
+			path = DataMatrixBarCode;
+			sourceTree = "<group>";
+		};
+		C9FF532314F8360A00D35AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF532414F8360A00D35AB3 /* DataMatrixBarCode-Info.plist */,
+				C9FF532514F8360A00D35AB3 /* InfoPlist.strings */,
+				C9FF532814F8360A00D35AB3 /* main.m */,
+				C9FF532A14F8360A00D35AB3 /* DataMatrixBarCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9FF531714F8360A00D35AB3 /* DataMatrixBarCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FF533014F8360A00D35AB3 /* Build configuration list for PBXNativeTarget "DataMatrixBarCode" */;
+			buildPhases = (
+				C9FF531414F8360A00D35AB3 /* Sources */,
+				C9FF531514F8360A00D35AB3 /* Frameworks */,
+				C9FF531614F8360A00D35AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataMatrixBarCode;
+			productName = DataMatrixBarCode;
+			productReference = C9FF531814F8360A00D35AB3 /* DataMatrixBarCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9FF530F14F8360A00D35AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "sauravsinha007@gmail.com";
+			};
+			buildConfigurationList = C9FF531214F8360A00D35AB3 /* Build configuration list for PBXProject "DataMatrixBarCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9FF530D14F8360A00D35AB3;
+			productRefGroup = C9FF531914F8360A00D35AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9FF531714F8360A00D35AB3 /* DataMatrixBarCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9FF531614F8360A00D35AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FF532714F8360A00D35AB3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9FF531414F8360A00D35AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FF532914F8360A00D35AB3 /* main.m in Sources */,
+				C9FF532D14F8360A00D35AB3 /* testdelegateAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9FF532514F8360A00D35AB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FF532614F8360A00D35AB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9FF532E14F8360A00D35AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9FF532F14F8360A00D35AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9FF533114F8360A00D35AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataMatrixBarCode/DataMatrixBarCode-Prefix.pch";
+				INFOPLIST_FILE = "DataMatrixBarCode/DataMatrixBarCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9FF533214F8360A00D35AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataMatrixBarCode/DataMatrixBarCode-Prefix.pch";
+				INFOPLIST_FILE = "DataMatrixBarCode/DataMatrixBarCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9FF531214F8360A00D35AB3 /* Build configuration list for PBXProject "DataMatrixBarCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FF532E14F8360A00D35AB3 /* Debug */,
+				C9FF532F14F8360A00D35AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FF533014F8360A00D35AB3 /* Build configuration list for PBXNativeTarget "DataMatrixBarCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FF533114F8360A00D35AB3 /* Debug */,
+				C9FF533214F8360A00D35AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9FF530F14F8360A00D35AB3 /* Project object */;
+}
