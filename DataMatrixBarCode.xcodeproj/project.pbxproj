@@ -7,25 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90523D614F8B19900D62E24 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C90523D514F8B19900D62E24 /* MBProgressHUD.m */; };
+		C90523E714F8BFDB00D62E24 /* CaptureBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90523E514F8BFDB00D62E24 /* CaptureBarCodeViewController.m */; };
+		C90523E814F8BFDB00D62E24 /* CaptureBarCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90523E614F8BFDB00D62E24 /* CaptureBarCodeViewController.xib */; };
+		C90523EB14F8C26600D62E24 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90523EA14F8C26600D62E24 /* CoreVideo.framework */; };
+		C90523F114F8C32F00D62E24 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90523F014F8C32F00D62E24 /* MobileCoreServices.framework */; };
+		C90523F714F8C74C00D62E24 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90523F614F8C74C00D62E24 /* AVFoundation.framework */; };
+		C905240C14F8E38100D62E24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C905240B14F8E38100D62E24 /* QuartzCore.framework */; };
+		C905240E14F8E38C00D62E24 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C905240D14F8E38C00D62E24 /* CoreMedia.framework */; };
+		C905241014F8E6F000D62E24 /* Resetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C905240F14F8E6F000D62E24 /* Resetbutton.png */; };
+		C905241A14F9572300D62E24 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C905241914F9572200D62E24 /* ImageIO.framework */; };
+		C905242514F9614500D62E24 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C905242414F9614500D62E24 /* CaptureSessionManager.m */; };
+		C905242814F9675A00D62E24 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = C905242614F9675A00D62E24 /* overlaygraphic.png */; };
+		C905242914F9675A00D62E24 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C905242714F9675A00D62E24 /* scanbutton.png */; };
 		C9FF531D14F8360A00D35AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF531C14F8360A00D35AB3 /* UIKit.framework */; };
 		C9FF531F14F8360A00D35AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF531E14F8360A00D35AB3 /* Foundation.framework */; };
 		C9FF532114F8360A00D35AB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF532014F8360A00D35AB3 /* CoreGraphics.framework */; };
 		C9FF532714F8360A00D35AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9FF532514F8360A00D35AB3 /* InfoPlist.strings */; };
 		C9FF532914F8360A00D35AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FF532814F8360A00D35AB3 /* main.m */; };
 		C9FF532D14F8360A00D35AB3 /* testdelegateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FF532C14F8360A00D35AB3 /* testdelegateAppDelegate.m */; };
+		C9FF533614F8363C00D35AB3 /* HomeViewComtroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FF533414F8363C00D35AB3 /* HomeViewComtroller.m */; };
+		C9FF533714F8363C00D35AB3 /* HomeViewComtroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FF533514F8363C00D35AB3 /* HomeViewComtroller.xib */; };
+		C9FF533C14F8382A00D35AB3 /* SHDataMatrixReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FF533B14F8382A00D35AB3 /* SHDataMatrixReader.m */; };
+		C9FF534114F839A600D35AB3 /* ShowDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FF533F14F839A600D35AB3 /* ShowDataViewController.m */; };
+		C9FF534214F839A600D35AB3 /* ShowDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FF534014F839A600D35AB3 /* ShowDataViewController.xib */; };
+		C9FF534514F83BBB00D35AB3 /* liblibdmtx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF534414F83BBB00D35AB3 /* liblibdmtx.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C90523D414F8B19900D62E24 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C90523D514F8B19900D62E24 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C90523E414F8BFDB00D62E24 /* CaptureBarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureBarCodeViewController.h; sourceTree = "<group>"; };
+		C90523E514F8BFDB00D62E24 /* CaptureBarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureBarCodeViewController.m; sourceTree = "<group>"; };
+		C90523E614F8BFDB00D62E24 /* CaptureBarCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptureBarCodeViewController.xib; sourceTree = "<group>"; };
+		C90523EA14F8C26600D62E24 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C90523F014F8C32F00D62E24 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C90523F614F8C74C00D62E24 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C905240B14F8E38100D62E24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C905240D14F8E38C00D62E24 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C905240F14F8E6F000D62E24 /* Resetbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resetbutton.png; sourceTree = "<group>"; };
+		C905241914F9572200D62E24 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C905242314F9614400D62E24 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		C905242414F9614500D62E24 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		C905242614F9675A00D62E24 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		C905242714F9675A00D62E24 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
 		C9FF531814F8360A00D35AB3 /* DataMatrixBarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataMatrixBarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FF531C14F8360A00D35AB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9FF531E14F8360A00D35AB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9FF532014F8360A00D35AB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C9FF532414F8360A00D35AB3 /* DataMatrixBarCode-Info.plist */ = {isa = PBXFileReference; path = "DataMatrixBarCode-Info.plist"; sourceTree = "<group>"; };
+		C9FF532414F8360A00D35AB3 /* DataMatrixBarCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataMatrixBarCode-Info.plist"; sourceTree = "<group>"; };
 		C9FF532614F8360A00D35AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9FF532814F8360A00D35AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C9FF532A14F8360A00D35AB3 /* DataMatrixBarCode-Prefix.pch */ = {isa = PBXFileReference; path = "DataMatrixBarCode-Prefix.pch"; sourceTree = "<group>"; };
-		C9FF532B14F8360A00D35AB3 /* testdelegateAppDelegate.h */ = {isa = PBXFileReference; path = testdelegateAppDelegate.h; sourceTree = "<group>"; };
+		C9FF532A14F8360A00D35AB3 /* DataMatrixBarCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataMatrixBarCode-Prefix.pch"; sourceTree = "<group>"; };
+		C9FF532B14F8360A00D35AB3 /* testdelegateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testdelegateAppDelegate.h; sourceTree = "<group>"; };
 		C9FF532C14F8360A00D35AB3 /* testdelegateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testdelegateAppDelegate.m; sourceTree = "<group>"; };
+		C9FF533314F8363C00D35AB3 /* HomeViewComtroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewComtroller.h; sourceTree = "<group>"; };
+		C9FF533414F8363C00D35AB3 /* HomeViewComtroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewComtroller.m; sourceTree = "<group>"; };
+		C9FF533514F8363C00D35AB3 /* HomeViewComtroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewComtroller.xib; sourceTree = "<group>"; };
+		C9FF533914F8382A00D35AB3 /* dmtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dmtx.h; sourceTree = "<group>"; };
+		C9FF533A14F8382A00D35AB3 /* SHDataMatrixReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDataMatrixReader.h; sourceTree = "<group>"; };
+		C9FF533B14F8382A00D35AB3 /* SHDataMatrixReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDataMatrixReader.m; sourceTree = "<group>"; };
+		C9FF533E14F839A600D35AB3 /* ShowDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDataViewController.h; sourceTree = "<group>"; };
+		C9FF533F14F839A600D35AB3 /* ShowDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDataViewController.m; sourceTree = "<group>"; };
+		C9FF534014F839A600D35AB3 /* ShowDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowDataViewController.xib; sourceTree = "<group>"; };
+		C9FF534414F83BBB00D35AB3 /* liblibdmtx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibdmtx.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +78,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C905241A14F9572300D62E24 /* ImageIO.framework in Frameworks */,
+				C905240E14F8E38C00D62E24 /* CoreMedia.framework in Frameworks */,
+				C905240C14F8E38100D62E24 /* QuartzCore.framework in Frameworks */,
+				C9FF532114F8360A00D35AB3 /* CoreGraphics.framework in Frameworks */,
+				C90523F714F8C74C00D62E24 /* AVFoundation.framework in Frameworks */,
+				C90523F114F8C32F00D62E24 /* MobileCoreServices.framework in Frameworks */,
+				C90523EB14F8C26600D62E24 /* CoreVideo.framework in Frameworks */,
 				C9FF531D14F8360A00D35AB3 /* UIKit.framework in Frameworks */,
 				C9FF531F14F8360A00D35AB3 /* Foundation.framework in Frameworks */,
-				C9FF532114F8360A00D35AB3 /* CoreGraphics.framework in Frameworks */,
+				C9FF534514F83BBB00D35AB3 /* liblibdmtx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C90523D714F8B1AC00D62E24 /* MBProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				C90523D414F8B19900D62E24 /* MBProgressHUD.h */,
+				C90523D514F8B19900D62E24 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHud;
+			sourceTree = "<group>";
+		};
+		C90523E914F8BFEE00D62E24 /* CaptureBarCodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C90523E414F8BFDB00D62E24 /* CaptureBarCodeViewController.h */,
+				C90523E514F8BFDB00D62E24 /* CaptureBarCodeViewController.m */,
+				C90523E614F8BFDB00D62E24 /* CaptureBarCodeViewController.xib */,
+			);
+			name = CaptureBarCodeViewController;
+			sourceTree = "<group>";
+		};
 		C9FF530D14F8360A00D35AB3 = {
 			isa = PBXGroup;
 			children = (
+				C905242614F9675A00D62E24 /* overlaygraphic.png */,
+				C905242714F9675A00D62E24 /* scanbutton.png */,
+				C905242314F9614400D62E24 /* CaptureSessionManager.h */,
+				C905242414F9614500D62E24 /* CaptureSessionManager.m */,
+				C905241914F9572200D62E24 /* ImageIO.framework */,
+				C905240F14F8E6F000D62E24 /* Resetbutton.png */,
+				C905240D14F8E38C00D62E24 /* CoreMedia.framework */,
+				C905240B14F8E38100D62E24 /* QuartzCore.framework */,
+				C90523F614F8C74C00D62E24 /* AVFoundation.framework */,
+				C90523F014F8C32F00D62E24 /* MobileCoreServices.framework */,
+				C90523EA14F8C26600D62E24 /* CoreVideo.framework */,
+				C90523E914F8BFEE00D62E24 /* CaptureBarCodeViewController */,
+				C90523D714F8B1AC00D62E24 /* MBProgressHud */,
+				C9FF534314F839AA00D35AB3 /* ShowDataViewController */,
+				C9FF533D14F8383600D35AB3 /* SHdataMatrixReader */,
+				C9FF533814F8364300D35AB3 /* HomeViewController */,
 				C9FF532214F8360A00D35AB3 /* DataMatrixBarCode */,
 				C9FF531B14F8360A00D35AB3 /* Frameworks */,
 				C9FF531914F8360A00D35AB3 /* Products */,
@@ -62,6 +149,7 @@
 		C9FF531B14F8360A00D35AB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9FF534414F83BBB00D35AB3 /* liblibdmtx.a */,
 				C9FF531C14F8360A00D35AB3 /* UIKit.framework */,
 				C9FF531E14F8360A00D35AB3 /* Foundation.framework */,
 				C9FF532014F8360A00D35AB3 /* CoreGraphics.framework */,
@@ -88,6 +176,36 @@
 				C9FF532A14F8360A00D35AB3 /* DataMatrixBarCode-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9FF533814F8364300D35AB3 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF533314F8363C00D35AB3 /* HomeViewComtroller.h */,
+				C9FF533414F8363C00D35AB3 /* HomeViewComtroller.m */,
+				C9FF533514F8363C00D35AB3 /* HomeViewComtroller.xib */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		C9FF533D14F8383600D35AB3 /* SHdataMatrixReader */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF533914F8382A00D35AB3 /* dmtx.h */,
+				C9FF533A14F8382A00D35AB3 /* SHDataMatrixReader.h */,
+				C9FF533B14F8382A00D35AB3 /* SHDataMatrixReader.m */,
+			);
+			name = SHdataMatrixReader;
+			sourceTree = "<group>";
+		};
+		C9FF534314F839AA00D35AB3 /* ShowDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF533E14F839A600D35AB3 /* ShowDataViewController.h */,
+				C9FF533F14F839A600D35AB3 /* ShowDataViewController.m */,
+				C9FF534014F839A600D35AB3 /* ShowDataViewController.xib */,
+			);
+			name = ShowDataViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9FF532714F8360A00D35AB3 /* InfoPlist.strings in Resources */,
+				C9FF533714F8363C00D35AB3 /* HomeViewComtroller.xib in Resources */,
+				C9FF534214F839A600D35AB3 /* ShowDataViewController.xib in Resources */,
+				C90523E814F8BFDB00D62E24 /* CaptureBarCodeViewController.xib in Resources */,
+				C905241014F8E6F000D62E24 /* Resetbutton.png in Resources */,
+				C905242814F9675A00D62E24 /* overlaygraphic.png in Resources */,
+				C905242914F9675A00D62E24 /* scanbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +278,12 @@
 			files = (
 				C9FF532914F8360A00D35AB3 /* main.m in Sources */,
 				C9FF532D14F8360A00D35AB3 /* testdelegateAppDelegate.m in Sources */,
+				C9FF533614F8363C00D35AB3 /* HomeViewComtroller.m in Sources */,
+				C9FF533C14F8382A00D35AB3 /* SHDataMatrixReader.m in Sources */,
+				C9FF534114F839A600D35AB3 /* ShowDataViewController.m in Sources */,
+				C90523D614F8B19900D62E24 /* MBProgressHUD.m in Sources */,
+				C90523E714F8BFDB00D62E24 /* CaptureBarCodeViewController.m in Sources */,
+				C905242514F9614500D62E24 /* CaptureSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +320,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -207,7 +337,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -220,6 +350,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DataMatrixBarCode/DataMatrixBarCode-Prefix.pch";
 				INFOPLIST_FILE = "DataMatrixBarCode/DataMatrixBarCode-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -231,6 +365,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DataMatrixBarCode/DataMatrixBarCode-Prefix.pch";
 				INFOPLIST_FILE = "DataMatrixBarCode/DataMatrixBarCode-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,6 +393,7 @@
 				C9FF533214F8360A00D35AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

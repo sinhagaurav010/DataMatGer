@@ -7,7 +7,8 @@
 //
 
 #import "testdelegateAppDelegate.h"
-
+#import "HomeViewComtroller.h"
+#import "CaptureBarCodeViewController.h"
 @implementation testdelegateAppDelegate
 
 @synthesize window = _window;
@@ -23,6 +24,10 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    CaptureBarCodeViewController *home=[[CaptureBarCodeViewController alloc]init];
+    //HomeViewComtroller *home=[[HomeViewComtroller alloc]init];
+    navigation=[[UINavigationController alloc]initWithRootViewController:home];
+    [self.window addSubview:navigation.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
