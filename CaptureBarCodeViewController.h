@@ -22,6 +22,7 @@
     AVCaptureVideoDataOutput* videoOutput;
     UIActivityIndicatorView *activitity;
     NSTimer *timer;
+    IBOutlet UIView *aView;
 }
 @property (retain) CaptureSessionManager *captureManager;
 @property (nonatomic, retain) UILabel *scanningLabel;

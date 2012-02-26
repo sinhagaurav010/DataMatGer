@@ -26,6 +26,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #import "SHDataMatrixReader.h"
 
 #import "dmtx.h"
+#define kTimeoutInterval 5
 
 @interface SHDataMatrixReader ()
 #if TARGET_OS_IPHONE
@@ -36,6 +37,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 @end
 
 @implementation SHDataMatrixReader
+@synthesize timeoutTimer;
 
 #pragma mark Allocation
 
@@ -74,7 +76,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
         [imageData release];
 		return nil;
     }
-
+     self.timeoutTimer = [NSTimer scheduledTimerWithTimeInterval:kTimeoutInterval target:self selector:@selector(requestTimeout) userInfo:nil repeats:NO];
 	// Initialize dmtx decode struct for image.
 	DmtxDecode *dmtxDecode = dmtxDecodeCreate(dmtxImage, 1);
 
@@ -115,13 +117,30 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 	// Free dmtx image memory.
 	dmtxImageDestroy(&dmtxImage);
-
+    self.timeoutTimer=nil;
 	if([messages count] > 0)
 		return [messages objectAtIndex:0];
 	else
 		return nil;
 }
-
+- (void)requestTimeout {
+    NSLog(@"in time out");
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" 
+                                                    message:@"No Data found" 
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles: nil];
+    [alert show];
+    [alert release];
+}
+- (void)setTimeoutTimer:(NSTimer *)newTimer {
+        
+        if(timeoutTimer)
+            [timeoutTimer invalidate], [timeoutTimer release], timeoutTimer = nil;
+        
+        if(newTimer)
+            timeoutTimer = [newTimer retain];
+    }
 #if TARGET_OS_IPHONE
 - (NSData *)_ARGB8DataForImage:(UIImage *)image {
 #else

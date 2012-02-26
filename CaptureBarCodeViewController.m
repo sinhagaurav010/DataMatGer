@@ -82,7 +82,6 @@
 }
 - (void)scanButtonPressed {
     [NSThread detachNewThreadSelector:@selector(startTheBackgroundJob) toTarget:self withObject:nil];
-     timer=[NSTimer scheduledTimerWithTimeInterval:(1.0/2.0) target:self selector:@selector(tick) userInfo:nil repeats:YES];
     [[self captureManager] captureStillImage];
     [[captureManager captureSession] stopRunning];
 }
@@ -98,13 +97,10 @@
     [NSThread exit];
     
 }
--(void)tick
-{
-    [activitity stopAnimating];
-}
+
 - (void)saveImageToPhotoAlbum 
 {
-    // UIImageWriteToSavedPhotosAlbum([[self captureManager] stillImage], self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    //UIImageWriteToSavedPhotosAlbum([[self captureManager] stillImage], self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     
     SHDataMatrixReader * reader = [SHDataMatrixReader sharedDataMatrixReader];
     NSString * decodedMessage = [reader decodeBarcodeFromImage:[[self captureManager] stillImage]];      
@@ -113,7 +109,7 @@
     if([decodedMessage length]>0)
     {
         UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Scan Result" message:decodedMessage delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
+        [alert show]; 
       /*  ShowDataViewController *sdvc=[[ShowDataViewController alloc]init];
         [sdvc setStrData:decodedMessage];
         [self.navigationController pushViewController:sdvc animated:YES];*/

@@ -38,4 +38,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #else
 - (NSString *)decodeBarcodeFromImage:(NSImage *)image;
 #endif
+@property (nonatomic, retain) NSTimer *timeoutTimer;
+
 @end
